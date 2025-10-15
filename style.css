@@ -5,74 +5,45 @@ body {
       justify-content: center;
       align-items: center;
       height: 100vh;
-    }
+     }
 
-    .card {
+.card {
       background-color: white;
-      width: 600px;
+      width: 225px;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      display: flex;
-      overflow: hidden;
-    }
+      }
 
-    .left {
-      width: 50%;
-    }
-
-    .left img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .right {
-      width: 50%;
-      padding: 20px;
-    }
-
-    .right small {
-      color: gray;
-      letter-spacing: 2px;
-    }
-
-    .right h2 {
-      margin: 10px 0;
-      font-size: 20px;
-    }
-
-    .right p {
-      font-size: 13px;
-      color: #555;
-      line-height: 1.4;
-    }
-
-    .price {
+img {
+        border-radius: 4px;
+      }
+.price {
       margin-top: 15px;
+
     }
 
-    .current-price {
+.current-price {
       color: green;
       font-size: 24px;
       font-weight: bold;
     }
 
-    .old-price {
+.old-price {
       text-decoration: line-through;
       color: gray;
       font-size: 14px;
       margin-left: 10px;
     }
 
-    button {
+button {
       background-color: #f1f1f1;
       border: none;
       padding: 8px 15px;
       border-radius: 5px;
       margin-top: 15px;
       cursor: pointer;
+      margin-left: 60px;
     }
 
-    button:hover {
+button:hover {
       background-color: #ddd;
     }
